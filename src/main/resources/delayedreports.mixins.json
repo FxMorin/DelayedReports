@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.fxco.delayedreports.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ChatMessageSignerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

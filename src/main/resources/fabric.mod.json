@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "delayedreports",
+  "version": "${version}",
+  "name": "DelayedReports",
+  "description": "A mod that delays your chat messages so that they are delayed in reports. Making it harder for Mojang to validate, and hopefully a temporary solution to Fabricated chat reports",
+  "authors": [
+    "FX - PR0CESS",
+    "Adryd"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/delayedreports/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ca.fxco.delayedreports.DelayedReports"
+    ]
+  },
+  "mixins": [
+    "delayedreports.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": ">=1.19.1-beta.2"
+  }
+}
